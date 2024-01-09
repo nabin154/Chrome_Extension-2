@@ -24,7 +24,7 @@ field.addEventListener("change", async () => {
     data.append("upload_preset", "****");
     data.append("cloud_name", "******");
 
-    fetch("https://api.cloudinary.com/upload", {
+    fetch("https://api.cloudinary.com/v1_1/*****/image/upload", {
       method: "post",
       body: data,
     })
