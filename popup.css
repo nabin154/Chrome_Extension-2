@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+    padding: 6px;
+}
+
+.wrapper{
+    width: 400px;
+    text-align: center;
+}
+
+.first-input{
+    margin-left: 25px;
+    height: 35px;
+    width: 350px;
+}
+#result{
+    margin-top: 14px;
+      height: 23px;
+    width: 350px;
+
+}
+#btn{
+    padding: 2px;
+    cursor: pointer;
+}

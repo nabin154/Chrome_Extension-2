@@ -1,0 +1,19 @@
+{
+  "name": "Image Link Generator",
+  "description": "Easily get your images link!",
+  "version": "1.0",
+  "manifest_version": 3,
+  
+  "permissions":[
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup":"popup.html"
+  },
+  "icons":{
+    "16":"images/back.png",
+    "32":"images/back.png",
+    "48":"images/back.png"
+  }
+}
